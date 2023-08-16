@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divone{
+       
+            background-color: green;
+            height: 200px;
+            text-align:center;
+            width: 300px;
+            gap: 30px;
+            border: 5px solid red;
+            padding: 10px;
+            color: white;
+            
+           
+           
+    }
+    .divtwo{
+        background-color: cadetblue;
+        height: 200px;
+            text-align:center;
+            width: 300px;
+            gap: 30px;
+            border: 5px solid red;
+            padding: 10px;
+            color: white;
+    }
+    .divthree{
+        background-color: chocolate;
+        height: 200px;
+            text-align:center;
+            width: 300px;
+            gap: 30px;
+            border: 5px solid red;
+            padding: 10px;
+            color: white;
+    }
+    .first{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   justify-content: center;
+   margin-top: 20px;
+       
+
+    }
+    .second{
+    display: flex;
+   align-items: center;
+   gap: 100px;
+   justify-content: center;
+   margin-top: 50px;
+        
+
+    }
+    .divfour{
+        background-color: rgb(91, 175, 140);
+        height: 200px;
+            text-align:center;
+            width: 450px;
+            gap: 30px;
+            border: 5px solid red;
+            padding: 10px;
+            color: white;
+
+    }
+    .divfive{
+        background-color: rgb(26, 195, 207);
+        height: 200px;
+            text-align:center;
+            width: 450px;
+            gap: 30px;
+            border: 5px solid rgb(45, 57, 114);
+            padding: 10px;
+            color: white;
+
+    }
+    #inputdeposit,#inputwithdraw{
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    #depositinput ,#withdrawinput{
+        font-size: 20px;
+        padding: 10px;
+        border: 2px solid green;
+        background-color: orange;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <div class="divone">
+            <h1></span>Deposit</h1>
+            <h1>$ <span id="deposit1">00</span></h1>
+        </div>  
+         <div class="divtwo">
+         <h1></span>Withdraw</h1>
+         <h1>$ <span id="deposit2">00</span></h1>
+     </div>
+     <div class="divthree">
+         <h1></span> Current Balence</h1>
+         <h1>$ <span class="currentbb" id="deposit3">00</span></h1>
+     </div>
+
+    </div>
+    <div class="second">
+         <div class="divfour">
+            <h1>Please Deposit Here</h1>
+            <input type="text" name="" id="inputdeposit" placeholder="Enter your deposit">
+            <br>
+            <button id="depositinput">Deposit</button>
+        </div>  
+         <div class="divfive">
+         <h1></span>Please Withdraw Here</h1>
+         <input type="text" name="" id="inputwithdraw" placeholder="Enter withdrow">
+         <br>
+         <button id="withdrawinput">Withdraw</button>
+     </div>
+    
+
+    </div>
+
+ 
+    <script src="first.js"></script>
+</body>
+</html>
